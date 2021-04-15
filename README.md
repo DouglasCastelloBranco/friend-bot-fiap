@@ -2,7 +2,7 @@
 
 |Ultima Alteracao|Autor|
 |----------------|-----|
-|15-04-2021 V1|Douglas Castello
+|15-04-2021 V1|Douglas Castello Branco
 
 # Projeto Friendbot Grupo S2
 

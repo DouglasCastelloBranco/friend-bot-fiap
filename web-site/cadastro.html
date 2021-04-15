@@ -1,0 +1,88 @@
+<html>
+<head>
+    <title>Projeto Friendbot - Fiapinho</title>
+    <script src="https://kit.fontawesome.com/d91c05e1b7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="cadastro">
+    <div class="wrapper">
+        <!-- Cabecalho -->
+        <header class="header">
+            <ul class="navegacao">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cadastro.html">Cadastre-se</a></li>
+                <li class="titulo"><i class="fas fa-user-astronaut"></i> Projeto Friendbot</li>
+                <li><a href="livox.html">Livox</a></li>
+                <li><a href="radvid19.html">Radvid 19</a></li>
+            </ul>
+        </header>
+
+        <!-- Conteudo -->
+        <article class="articlecontato">
+            <h3>Cadastre-se</h3>
+            <form name="dados" id="dados" action="enviado-sucesso.html" method="post">
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+                    <p><label for="nome">Nome </label> <input type="text" id="nome"></p>
+                    <p><label for="senha">Senha </label><input type="password" id="senha"></p>
+                    <p><label for="email">Email </label> <input type="text" id="email"></p>
+                    <p><label for="celular">Celular </label> <input type="text" id="celular" required placeholder="ex: (011) 9-8765-4321"></p>
+                </fieldset>
+                <fieldset>
+                    <legend>Endereço</legend>
+                    <p><label for="rua">Rua </label> <input type="text" id="celular"></p>
+                    <p><label for="ruaNumero">Num </label> <input type="text" id="ruaNumero"></p>
+                    <p><label for="cep">Cep </label> <input type="text" id="cep"></p>
+                    <p><label for="cidade">Cidade </label> <input type="text" id="cidade" required placeholder="Digite a Cidade"></p>
+                    <p>
+                        <label for="estado">Estado </label> <input list="uf" id="estado" required placeholder="Selecione o Estado">
+                        <datalist id="uf">
+                            <option value="AC">Acre</option>
+                            <option value="AL">Alagoas</option>
+                            <option value="AP">Amapá</option>
+                            <option value="AM">Amazonas</option>
+                            <option value="BA">Bahia</option>
+                            <option value="CE">Ceará</option>
+                            <option value="DF">Distrito Federal</option>
+                            <option value="ES">Espírito Santo</option>
+                            <option value="GO">Goiás</option>
+                            <option value="MA">Maranhão</option>
+                            <option value="MT">Mato Grosso</option>
+                            <option value="MS">Mato Grosso do Sul</option>
+                            <option value="MG">Minas Gerais</option>
+                            <option value="PA">Pará</option>
+                            <option value="PB">Paraíba</option>
+                            <option value="PR">Paraná</option>
+                            <option value="PE">Pernambuco</option>
+                            <option value="PI">Piauí</option>
+                            <option value="RJ">Rio  de Janeiro</option>
+                            <option value="RN">Rio Grande do Norte</option>
+                            <option value="RS">Rio Grande do Sul</option>
+                            <option value="RO">Rondônia</option>
+                            <option value="RR">Roraima</option>
+                            <option value="SC">Santa Catarina</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="SE">Sergipe</option>
+                            <option value="TO">Tocantins</option>
+                            <option value="EX">Estrangeiro</option>
+                        </datalist>
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>Enviar</legend>
+                    <input class="btnCadastrar" type="submit" value="Cadastrar">
+                </fieldset>
+            </form>
+        </article>
+
+        <!-- Rodape -->
+        <footer class="footer">           
+            <ul class="redes">
+                <li><a href="https://www.linkedin.com/in/douglas-castello-branco/"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="https://www.instagram.com/dougcb/"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </footer>
+    </div>
+</body>
+</html>

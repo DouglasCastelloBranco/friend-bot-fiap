@@ -1,0 +1,167 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f2f2f2;
+}
+
+.home{
+    background-image: url('imgs/robot.gif');
+    background-size: cover;
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+
+.livox{
+    background-image: url('imgs/livox.jpg');
+    background-size: cover;
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+
+.radvid19{
+    background-image: url('imgs/radvid19.jpg');
+    background-size: cover;
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+
+.cadastro{
+    background-image: url('imgs/cadastre-se.jpg');
+    background-size: cover;
+    height: 100vh;
+    padding:0;
+    margin:0;
+    color: #ffffff;
+}
+
+.cadastroSucesso{
+    background-image: url('imgs/cadastro-sucesso.jpg');
+    background-size: cover;
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+
+.wrapper {
+    display: grid;  
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.wrapper * {
+    flex: 1 100%;
+}
+
+.header {
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    font-weight: bold;
+    background-image: linear-gradient(to bottom,rgba(0,0,0,.7) 10%,rgba(0,0,0,0));
+}
+
+.navegacao {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.navegacao a {
+    text-decoration: none;
+    padding: 1em;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #ffffff;
+}
+
+.navegacao a:focus {
+    border-bottom: 2px solid;
+}
+
+.navegacao a:hover {
+    transition: 0.3s;
+    border-bottom: 2px solid;
+}
+
+.navegacao a:active {
+    border-bottom: 2px solid;
+}
+
+.article {
+    width: 100%;
+    left: 0;
+    position: fixed;
+    margin: 10% auto;
+}
+
+.articlecontato {
+    position: center;
+    margin: 10% auto;
+}
+
+.titulo {
+    font-size: 30px;
+    color: #ffffff;
+}
+
+table {
+    margin: 80px auto;
+    border-collapse: collapse;
+    background-color: #ffffff;
+}
+
+table thead {
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #54585d;
+}
+
+table td{
+    padding: 15px;
+}
+
+table tbody td {
+	color: #636363;
+	border: 1px solid #dddfe1;
+}
+
+table tbody tr {
+	background-color: #f9fafb;
+}
+
+caption {
+    color: #ffffff;
+    background-color: #333333;
+}
+
+.footer {
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    background-color: #333333;
+    display: block;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.redes a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+form {
+    display: flex;  
+    text-align: center;
+}
+
+.btnCadastrar {
+    margin: 125px auto;
+}

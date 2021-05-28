@@ -1,10 +1,10 @@
-# Versao - 1.0.0
+# Versao - 1.0.1
 
 |Ultima Alteracao|Autor|
 |----------------|-----|
-|15-04-2021 V1|Douglas Castello Branco
+|28-05-2021 V1|Douglas Castello Branco
 
-# Projeto Friendbot Grupo S2
+# Projeto Friendbot Grupo AVA
 
 ## Resumo
 Um repositório destinado a publicação de arquivos e artefatos relacionados ao projeto Friendbot 2021 (FIAP)
